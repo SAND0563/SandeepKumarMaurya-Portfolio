@@ -5,48 +5,96 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sandeep Kumar Maurya | Portfolio</title>
 <link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
 </head>
+
 <body>
 
 <header>
-<h1>Sandeep Kumar Maurya</h1>
-<p>Engineering Student | Robotics Enthusiast | Innovator</p>
-<a class="btn" href="https://www.linkedin.com" target="_blank">Visit My LinkedIn</a>
+<nav class="navbar">
+<h2 class="logo">Sandeep Maurya</h2>
+
+<div class="menu">
+<button onclick="toggleMenu()" class="menu-btn">Menu ▾</button>
+<div id="dropdown" class="dropdown">
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#projects">Projects</a>
+<a href="#achievements">Achievements</a>
+<a href="#contact">Contact</a>
+</div>
+</div>
+</nav>
 </header>
 
-<section class="about">
+<section class="hero">
+<img src="assets/sandeep.jpg" class="profile-img">
+<h1>Sandeep Kumar Maurya</h1>
+<p>Electronics Engineer | Robotics Enthusiast | Innovator</p>
+<a class="btn" href="https://www.linkedin.com" target="_blank">Visit My LinkedIn</a>
+</section>
+
+<section id="about">
 <h2>About Me</h2>
 <p>
-I am passionate about robotics, embedded systems, and innovation. 
-I enjoy building projects involving Arduino, ESP32, IoT, and AI-based systems.
+I am an Electronics Engineer passionate about robotics, embedded systems, IoT and innovation.
+I enjoy building intelligent systems using Arduino, ESP32, AI and automation technologies.
 </p>
 </section>
 
-<section class="achievements">
-<h2>Achievements</h2>
-<ul>
-<li>Winner – Young Innovators Program (YIP) 6th Edition, IIT Kharagpur</li>
-<li>Built multiple robotics and IoT projects</li>
-<li>Engineering student focused on innovation</li>
-</ul>
+<section id="education">
+<h2>Education</h2>
+
+<div class="card">
+<h3>B.Tech – Electronics Engineering</h3>
+<p>IERT Prayagraj, Uttar Pradesh</p>
+</div>
+
+<div class="card">
+<h3>12th Standard</h3>
+<p>Completed Higher Secondary Education</p>
+</div>
+
+<div class="card">
+<h3>10th Standard</h3>
+<p>Completed Secondary Education</p>
+</div>
+
 </section>
 
-<section class="projects">
+<section id="projects">
 <h2>Projects</h2>
-<div class="project-card">
+
+<div class="card">
 <h3>AI Face Recognition Door Lock</h3>
-<p>Security system using AI and embedded systems.</p>
+<p>Smart security system using artificial intelligence.</p>
 </div>
 
-<div class="project-card">
+<div class="card">
 <h3>Hand Gesture Controlled Robot</h3>
-<p>ESP32 + MPU6050 gesture-based robotic car.</p>
+<p>Robot car controlled using hand gestures with ESP32 and MPU6050.</p>
 </div>
 
-<div class="project-card">
-<h3>Line Follower Robot</h3>
-<p>Arduino based autonomous robot using IR sensors.</p>
+<div class="card">
+<h3>Arduino Line Follower Robot</h3>
+<p>Autonomous robot that follows a path using IR sensors.</p>
 </div>
+
+</section>
+
+<section id="achievements">
+<h2>Achievements</h2>
+
+<div class="card">
+<p>Winner – Young Innovators Program (YIP) 6th Edition at IIT Kharagpur.</p>
+</div>
+
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>LinkedIn: https://www.linkedin.com</p>
+<p>Email: your-email@example.com</p>
 </section>
 
 <footer>

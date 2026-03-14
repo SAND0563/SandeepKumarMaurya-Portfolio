@@ -1,11 +1,8 @@
-# Sandeep Kumar Maurya Portfolio Website
 
-This is a simple personal portfolio website.
+Sandeep Kumar Maurya Interactive Portfolio
 
-## How to Use
-1. Download this folder
-2. Upload all files to your GitHub repository
-3. Enable GitHub Pages in repository settings
+Upload all files to your GitHub repository.
+Then enable GitHub Pages.
 
-Your website will be live at:
+Your site will be live at:
 https://username.github.io
